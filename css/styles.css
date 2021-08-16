@@ -53,10 +53,11 @@ header .container {
   display: inline-block;
   margin-right: 93px;
 }
-a.logo {
+.nav-container .logo {
   padding-top: 24px;
   padding-bottom: 25px;
 }
+
 .logo-color {
   color: #000000;
 }
@@ -420,6 +421,7 @@ footer {
 }
 .left-footer {
   margin-right: 70px;
+  padding-top: 60px;
 }
 
 .address {
@@ -514,8 +516,10 @@ ul.list.portfolio-btn {
   line-height: 1.62;
   text-align: center;
   cursor: pointer;
-  padding: 6px, 22px;
+  padding: 6px 22px;
   flex-direction: row;
+  border: transparent;
+  border-width: 1px;
 }
 .portfolio-btn li:not(:last-child) {
   margin-right: 8px;
@@ -525,6 +529,8 @@ ul.list.portfolio-btn {
 .button-secondary:hover {
   color: var(--primary-background-color);
   background-color: var(--accent-color);
+  box-shadow: 0 2px 2px 0px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
 }
 ul.list-of-exmp {
   display: flex;
@@ -562,9 +568,9 @@ li.item {
   line-height: 1.87;
 }
 
-/* li.item:nth-child(-n + 6) {
+li.item:nth-child(-n + 6) {
   margin-bottom: 30px;
-} */
+}
 
 .item:focus,
 .item:hover {
