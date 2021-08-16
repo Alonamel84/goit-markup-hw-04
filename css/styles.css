@@ -440,6 +440,9 @@ footer {
   margin-bottom: 9px;
 }
 
+.address-details {
+  margin-top: 20px;
+}
 .email {
   color: rgba(255, 255, 255, 0.6);
   font-style: normal;
@@ -559,9 +562,9 @@ li.item {
   line-height: 1.87;
 }
 
-li.item:nth-child(-n + 6) {
+/* li.item:nth-child(-n + 6) {
   margin-bottom: 30px;
-}
+} */
 
 .item:focus,
 .item:hover {
