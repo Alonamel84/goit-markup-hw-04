@@ -226,12 +226,14 @@ img {
 }
 .list-of-features {
   display: flex;
-  margin-left: -30px;
+  /* margin-left: -30px; */
+  margin: 0 auto;
+  justify-content: space-between;
 }
 
 .item-feature {
   flex-basis: calc(100% / 4 - 30px);
-  margin-left: var(--card-set-item);
+  /* margin-left: var(--card-set-item); */
 }
 
 .scope {
@@ -304,12 +306,13 @@ button {
 }
 
 li.team-members {
-  margin-right: 30px;
-  width: 270px;
+  margin: 0 auto;
+  /* margin-right: 30px; */
+  /* width: 270px; */
 }
-ul.list.teamcards {
+/* ul.list.teamcards {
   margin-right: -30px;
-}
+} */
 .name {
   color: var(--title-text-color);
 
@@ -334,8 +337,11 @@ ul.list.teamcards {
 
 .social-list {
   display: flex;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   width: 206px;
+  margin-right: 10px;
+}
+.social-list-item {
   margin: 0 auto;
 }
 
@@ -377,15 +383,17 @@ ul.list.teamcards {
 .customer-list {
   width: 1170px;
   display: flex;
-  justify-content: space-between;
-  margin: 0 auto;
+  margin-right: 30px;
+  /* justify-content: space-between; */
+  /* margin: 0 auto; */
 }
 
 .customer-icon-list {
-  display: flex;
+  /* display: flex; */
   width: 170px;
   height: 92px;
   border: solid 1px #afb1b8;
+  margin: 0 auto;
 }
 .customers-icon-link {
   width: 170px;
@@ -411,7 +419,7 @@ ul.list.teamcards {
 /* ======  FOOTER ========= */
 footer {
   background-color: #2f303a;
-  /* padding-top: 60px; */
+  padding-top: 60px;
   padding-bottom: 60px;
 }
 
@@ -421,7 +429,7 @@ footer {
 }
 .left-footer {
   margin-right: 70px;
-  padding-top: 60px;
+  /* padding-top: 60px; */
 }
 
 .address {
