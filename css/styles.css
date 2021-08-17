@@ -520,6 +520,7 @@ ul.list.portfolio-btn {
   flex-direction: row;
   border: transparent;
   border-width: 1px;
+  border-radius: 4px;
 }
 .portfolio-btn li:not(:last-child) {
   margin-right: 8px;
